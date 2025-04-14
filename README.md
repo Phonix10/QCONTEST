@@ -35,26 +35,16 @@ A quiz contest platform developed as a mini project, designed for hosting and ma
 
    Move the folder to your local server directory:
 
-If using XAMPP:
-
-makefile
-Copy
-Edit
+2. Move the folder to your local server directory:
+-If using XAMPP:
+```bash
 C:\xampp\htdocs\QCONTEST
-Start your Apache and MySQL server using XAMPP Control Panel.
 
-Set up the Database:
+3. Start your Apache and MySQL server using XAMPP Control Panel.
 
-Open your browser and go to: http://localhost/phpmyadmin
+4. Set up the Database:
+-Open your browser and go to: http://localhost/phpmyadmin
 
 Create a new database, e.g. qcontest
 
 Import the provided .sql file (typically inside the db/ folder or project root)
-
-Launch the Application:
-
-arduino
-Copy
-Edit
-http://localhost/QCONTEST
-
