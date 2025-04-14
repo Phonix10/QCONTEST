@@ -1,4 +1,4 @@
-# ME_QCONTEST_V2
+# QCONTEST
 
 A quiz contest platform developed as a mini project, designed for hosting and managing quizzes with user authentication, question management, and scoring features.
 
@@ -35,16 +35,20 @@ A quiz contest platform developed as a mini project, designed for hosting and ma
 
    Move the folder to your local server directory:
 
-2. Move the folder to your local server directory:
--If using XAMPP:
-```bash
-C:\xampp\htdocs\QCONTEST
+2. **Move the folder to your local server directory:**
 
-3. Start your Apache and MySQL server using XAMPP Control Panel.
+   - If using XAMPP:
 
-4. Set up the Database:
--Open your browser and go to: http://localhost/phpmyadmin
+     ```bash
+     cd C:\xampp\htdocs\QCONTEST
+     ```
 
-Create a new database, e.g. qcontest
+3. **Start your Apache and MySQL server** using XAMPP Control Panel.
 
-Import the provided .sql file (typically inside the db/ folder or project root)
+4. **Set up the Database:**
+
+   - Open your browser and go to: [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+
+   - Create a new database, e.g. `qcontest`
+
+   - Import the provided `.sql` file (typically inside the `db/` folder or project root)
