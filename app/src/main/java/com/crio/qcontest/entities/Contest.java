@@ -45,6 +45,30 @@ public class Contest {
     public Long getId() {
         return id;
     }
+    public boolean isEmpty() {
+        return questions == null || questions.isEmpty();
+    }
+    public boolean isNotEmpty() {
+        return !isEmpty();
+    }
+    public boolean isValid() {
+        return id != null && name != null && level != null && creator != null && questions != null;
+    }
+    public boolean isInvalid() {
+        return !isValid();
+    }
+    public boolean isSameContest(Contest other) {
+        return this.id != null && this.id.equals(other.id);
+    }
+    public boolean isSameContestId(Long otherId) {
+        return this.id != null && this.id.equals(otherId);
+    }
+    public boolean isSameContestName(String otherName) {
+        return this.name != null && this.name.equals(otherName);
+    }
+    public boolean isSameContestLevel(DifficultyLevel otherLevel) {
+        return this.level != null && this.level.equals(otherLevel);
+    }
 
     @Override
     public String toString() {
