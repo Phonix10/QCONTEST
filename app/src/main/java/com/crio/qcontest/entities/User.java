@@ -18,21 +18,6 @@ public class User {
         this.score = other.score;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public Integer getScore() {
-        return score;
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setScore(Integer score){
-        this.score = score;
-    }
 
     @Override
     public String toString() {
