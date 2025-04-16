@@ -51,6 +51,9 @@ public class Contest {
     public boolean isNotEmpty() {
         return !isEmpty();
     }
+    public boolean isCreator(User user) {
+        return creator.getId().equals(user.getId());
+    }   
     
 
     @Override
